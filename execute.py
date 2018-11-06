@@ -257,6 +257,7 @@ if __name__ == '__main__':
     if gConfig['mode'] == 'train':
         # start training
         train()
+        print('all training is ok by ddj')
     elif gConfig['mode'] == 'server':
     
         print('Serve Usage : >> python3 webui/app.py')
